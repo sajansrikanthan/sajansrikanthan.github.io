@@ -1,0 +1,371 @@
+body {
+  background-color: #0e0f0f;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: #0e0f0f;
+}
+
+.menu-besides-name {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 165px;
+  top: 30px;
+}
+
+.my-name {
+  position: absolute;
+  width: 93px;
+  height: 32px;
+  left: 210px;
+  top: 34px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height, or 114% */
+
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav {
+  position: absolute;
+  width: 1110px;
+  height: 40px;
+  left: 165px;
+  top: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  float: right;
+  margin-right: 30px;
+}
+
+/* Style the anchors (links) that are nested inside the list items */
+nav li a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+main .picture-of-me {
+  position: absolute;
+  width: 540px;
+  height: 540px;
+  left: 165px;
+  top: 200px;
+
+  background: url(67565474_2279985922039397_8480028814141816832_n.jpg);
+  border-radius: 6px;
+}
+
+main .main-text h1 {
+  position: absolute;
+  width: 445px;
+  height: 85px;
+  left: 830px;
+  top: 200px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 47px;
+  /* or 131% */
+
+  color: #ffffff;
+}
+
+main .main-text p {
+  position: absolute;
+  width: 445px;
+  height: 155px;
+  left: 830px;
+  top: 309px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  /* or 172% */
+
+  color: #828282;
+}
+
+
+
+main .socials .instagramicon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 829px;
+  top: 494px;
+}
+main .socials .twittericon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 874px;
+  top: 494px;
+}
+main .socials .emailicon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 919px;
+  top: 494px;
+}
+
+section .services-text h2 {
+  position: absolute;
+  width: 127px;
+  height: 36px;
+  left: 656px;
+  top: 840px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+section .services-text p {
+  position: absolute;
+  width: 247px;
+  height: 19px;
+  left: 597px;
+  top: 887px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #828282;
+}
+
+section .services-offered .webdesign h3 {
+  position: absolute;
+  width: 350px;
+  height: 22px;
+  left: 165px;
+  top: 1075px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+section .services-offered .webdesign p {
+  position: absolute;
+  width: 350px;
+  height: 20px;
+  left: 165px;
+  top: 1103px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+
+  color: #828282;
+}
+section .services-offered .webdesignpicture {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 290px;
+  top: 955px;
+}
+
+section .services-offered .webdevelopment h3 {
+  position: absolute;
+  width: 350px;
+  height: 22px;
+  left: 545px;
+  top: 1075px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+section .services-offered .webdevelopment p {
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 545px;
+  top: 1103px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+
+  color: #828282;
+}
+section .services-offered .webdevelopmentpicture {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 670px;
+  top: 955px;
+}
+
+section .services-offered .python h3 {
+  position: absolute;
+  width: 350px;
+  height: 22px;
+  left: 925px;
+  top: 1075px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+section .services-offered .python p {
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 925px;
+  top: 1103px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+
+  color: #828282;
+}
+section .services-offered .pythonpicture {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 1050px;
+  top: 955px;
+}
+
+footer .footertext1 h4 {
+  position: absolute;
+  width: 112px;
+  height: 36px;
+  left: 660.99px;
+  top: 1203.35px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #ffffff;
+}
+footer .footertext1 p {
+  position: absolute;
+  width: 221px;
+  height: 19px;
+  left: 609px;
+  top: 1269px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #828282;
+}
+
+footer .button {
+  position: absolute;
+  width: 144px;
+  height: 41px;
+  left: 637px;
+  top: 1328px;
+}
+
+footer .button1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px 27px;
+  background: #21b052;
+  border-radius: 6px;
+
+  position: static;
+  width: 90px;
+  height: 19px;
+  left: 27px;
+  top: 11px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: none;
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
